@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Random random = new Random();
                 int color = Color.argb(255, random.nextInt(256),random.nextInt(256),random.nextInt(256));
-                txt.setText("Color and text was changed!");
+                txt.setText("Color and text were changed!");
                 txt.setTextColor(color);
 
             }
